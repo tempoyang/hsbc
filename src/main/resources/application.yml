@@ -1,0 +1,22 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: traffic-account
+  redis:
+    host: 127.0.0.1
+    port: 6379
+#    timeout: 10s  # 设置超时时间为 10 秒
+#    lettuce:
+#      pool:
+#        max-active: 200  # 设置最大活跃连接数为 100
+#        max-idle: 100    # 设置最大空闲连接数为 50
+#        min-idle: 20     # 设置最小空闲连接数为 10
+#        max-wait: 10s
+#      retry:
+#        enabled: true
+#        max-attempts: 3  # 设置最大重试次数为 3
+#    host: 192.168.200.130
+#    password: leadnews
+#    port: 6379
